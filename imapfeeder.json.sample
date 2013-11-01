@@ -1,0 +1,20 @@
+{
+    "cleanup": true,
+    "folders": {
+        "folder": [
+            "feedurl1",
+            "feedurl2"
+        ],
+        "folder2": [
+            "feedurl3"
+        ]
+    },
+    "imapserver": "imap.server.tld",
+    "from": "<email@server.tld",
+    "folderprefix": "feeds/",
+    "to": "<email@server.tld>",
+    "labels": [],
+    "template": "<table>\n<tbody>\n<tr><td><a href=\"{{ .Link }}\">{{ .Title }}</a></td></tr>\n<hr />\n<tr><td>{{ .Author }}</td></tr>\n<tr><td>{{ .Content }}</td></tr>\n</tbody>\n</table>",
+    "password": "password",
+    "username": "username"
+}
